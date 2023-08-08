@@ -1,0 +1,24 @@
+{
+  "name": "clinical-monitoring-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeds": "node server/seeds",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnguyen1013/Clinical-Monitoring-Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnguyen1013/Clinical-Monitoring-Dashboard/issues"
+  },
+  "homepage": "https://github.com/cnguyen1013/Clinical-Monitoring-Dashboard#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
